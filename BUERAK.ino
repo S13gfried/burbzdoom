@@ -18,10 +18,6 @@ int buerakDeltaFreq = 20;
 
 void playSportivniyeOchki(int pin, int pitch, int tempo);
 
-
-
-
-
 void setup() 
 {
   pinMode(SOURCE, OUTPUT);
@@ -36,10 +32,6 @@ void loop()
   playSportivniyeOchki(BUZZER, USERPITCH, USERTEMPO);
   delay(USERDELAY);
 }
-
-
-
-
 
 void playSportivniyeOchki(int pin, int pitch = 3, int tempo = 150)
 {
